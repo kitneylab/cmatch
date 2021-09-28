@@ -1,0 +1,531 @@
+{
+  "component_sources": {
+    "library_vio_one_construct": {
+      "name": "Violacein construct",
+      "type": "construct",
+      "repository": "/data/Imperial/repo/synthetic",
+      "parts": [
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0000.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0001.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0002.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0003.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0004.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0005.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0006.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0007.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0008.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0009.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0010.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0011.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0012.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0013.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0014.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0015.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0016.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0017.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0018.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0019.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0020.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0021.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0022.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0023.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0024.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0025.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0026.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0027.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0028.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0029.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0030.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0031.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0032.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0033.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0034.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0035.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0036.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0037.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0038.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0039.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0040.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0041.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0042.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0043.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0044.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0045.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0046.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0047.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0048.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0049.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0050.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0051.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0052.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0053.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0054.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0055.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0056.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0057.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0058.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0059.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0060.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0061.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0062.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0063.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0064.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0065.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0066.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0067.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0068.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0069.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0070.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0071.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0072.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0073.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0074.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0075.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0076.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0077.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0078.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0079.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0080.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0081.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0082.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0083.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0084.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0085.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0086.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0087.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0088.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0089.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0090.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0091.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0092.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0093.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0094.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0095.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0096.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0097.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0098.gb"
+        },
+        {
+          "name": "construnct",
+          "filetype": "genbank",
+          "filename": "vio-0099.gb"
+        }
+      ]
+    }
+  },
+  "template": {
+    "name": "Violacein template with one construct",
+    "UID": "vio-0000",
+    "description": "Violacein template with one unique construct as a part",
+    "structure": [
+      {
+        "type": "construct",
+        "library_source": "library_vio_one_construct",
+        "template_position": 1
+      }
+    ]
+  },
+  "template_slices": [
+    {
+      "name": "construct",
+      "template_slice": [
+        1
+      ]
+    }
+  ]
+}

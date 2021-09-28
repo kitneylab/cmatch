@@ -1,0 +1,37 @@
+{
+    "component_sources": {
+
+"library_vio_one_construct" : {
+    "name": "Violacein construct",
+    "type": "construct",
+    "repository": "/data/Imperial/repo/synthetic",
+    "parts": [
+        {
+            "name": "construct",
+            "filetype": "genbank",
+            "filename": "vio-0000.gb"
+        }
+    ]
+}
+
+},
+
+
+"template" : {
+    "name": "violacein_one_construct",
+    "UID": "vio-0000",
+    "description": "Violacein template with one unique construct as a part",
+    "structure": [
+        {
+            "type": "construct",
+            "library_source": "library_vio_one_construct",
+            "template_position": 1
+        }
+    ]
+},
+
+
+"template_slices" : [
+    {"name": "construct", "template_slice": [1]}
+]
+}

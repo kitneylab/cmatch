@@ -1,0 +1,210 @@
+{
+    "component_sources": {
+        "library_inducible_parts_promoters" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts promoters",
+            "type": "promoter",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [{"name": "pTet", "filetype": "text", "filename": "pTet_P43.txt"}]
+        },
+
+        "library_inducible_parts_cds" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts CDS",
+            "type": "cds",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "crtE", "filetype": "text", "filename": "crtErev.txt"},
+                {"name": "crtI", "filetype": "text", "filename": "crtIrev.txt"},
+                {"name": "crtB", "filetype": "text", "filename": "crtBrev.txt"}
+            ]
+        },
+
+        "library_inducible_parts_cds_E" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts CDS",
+            "type": "cds",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "crtE", "filetype": "text", "filename": "crtErev100.txt"}
+            ]
+        },
+
+        "library_inducible_parts_cds_I" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts CDS",
+            "type": "cds",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "crtI", "filetype": "text", "filename": "crtIrev100.txt"}
+            ]
+        },
+
+        "library_inducible_parts_cds_B" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts CDS",
+            "type": "cds",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "crtB", "filetype": "text", "filename": "crtBrev100.txt"}
+            ]
+        },
+
+        "library_inducible_parts_utr1_rbs" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts UTR-RBS",
+            "type": "utr-rbs",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "UTR1-RBS-A01", "filetype": "text", "filename": "UTR1-RBS-A01.txt"},
+                {"name": "UTR1-RBS-A02", "filetype": "text", "filename": "UTR1-RBS-A02.txt"},
+                {"name": "UTR1-RBS-A03", "filetype": "text", "filename": "UTR1-RBS-A03.txt"},
+                {"name": "UTR1-RBS-A04", "filetype": "text", "filename": "UTR1-RBS-A04.txt"},
+                {"name": "UTR1-RBS-A05", "filetype": "text", "filename": "UTR1-RBS-A05.txt"},
+                {"name": "UTR1-RBS-A06", "filetype": "text", "filename": "UTR1-RBS-A06.txt"},
+                {"name": "UTR1-RBS-A07", "filetype": "text", "filename": "UTR1-RBS-A07.txt"},
+                {"name": "UTR1-RBS-A08", "filetype": "text", "filename": "UTR1-RBS-A08.txt"},
+                {"name": "UTR1-RBS-A09", "filetype": "text", "filename": "UTR1-RBS-A09.txt"},
+                {"name": "UTR1-RBS-A10", "filetype": "text", "filename": "UTR1-RBS-A10.txt"},
+                {"name": "UTR1-RBS-A11", "filetype": "text", "filename": "UTR1-RBS-A11.txt"},
+                {"name": "UTR1-RBS-A12", "filetype": "text", "filename": "UTR1-RBS-A12.txt"}
+            ]
+        },
+
+        "library_inducible_parts_utr2_rbs" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts UTR-RBS",
+            "type": "utr-rbs",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "UTR2-RBS-A01", "filetype": "text", "filename": "UTR2-RBS-A01.txt"},
+                {"name": "UTR2-RBS-A02", "filetype": "text", "filename": "UTR2-RBS-A02.txt"},
+                {"name": "UTR2-RBS-A03", "filetype": "text", "filename": "UTR2-RBS-A03.txt"},
+                {"name": "UTR2-RBS-A04", "filetype": "text", "filename": "UTR2-RBS-A04.txt"},
+                {"name": "UTR2-RBS-A05", "filetype": "text", "filename": "UTR2-RBS-A05.txt"},
+                {"name": "UTR2-RBS-A06", "filetype": "text", "filename": "UTR2-RBS-A06.txt"},
+                {"name": "UTR2-RBS-A07", "filetype": "text", "filename": "UTR2-RBS-A07.txt"},
+                {"name": "UTR2-RBS-A08", "filetype": "text", "filename": "UTR2-RBS-A08.txt"},
+                {"name": "UTR2-RBS-A09", "filetype": "text", "filename": "UTR2-RBS-A09.txt"},
+                {"name": "UTR2-RBS-A10", "filetype": "text", "filename": "UTR2-RBS-A10.txt"},
+                {"name": "UTR2-RBS-A11", "filetype": "text", "filename": "UTR2-RBS-A11.txt"},
+                {"name": "UTR2-RBS-A12", "filetype": "text", "filename": "UTR2-RBS-A12.txt"}
+            ]
+        },
+
+        "library_inducible_parts_utr3_rbs" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts UTR-RBS",
+            "type": "utr-rbs",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "UTR3-RBS-A01", "filetype": "text", "filename": "UTR3-RBS-A01.txt"},
+                {"name": "UTR3-RBS-A02", "filetype": "text", "filename": "UTR3-RBS-A02.txt"},
+                {"name": "UTR3-RBS-A03", "filetype": "text", "filename": "UTR3-RBS-A03.txt"},
+                {"name": "UTR3-RBS-A04", "filetype": "text", "filename": "UTR3-RBS-A04.txt"},
+                {"name": "UTR3-RBS-A05", "filetype": "text", "filename": "UTR3-RBS-A05.txt"},
+                {"name": "UTR3-RBS-A06", "filetype": "text", "filename": "UTR3-RBS-A06.txt"},
+                {"name": "UTR3-RBS-A07", "filetype": "text", "filename": "UTR3-RBS-A07.txt"},
+                {"name": "UTR3-RBS-A08", "filetype": "text", "filename": "UTR3-RBS-A08.txt"},
+                {"name": "UTR3-RBS-A09", "filetype": "text", "filename": "UTR3-RBS-A09.txt"},
+                {"name": "UTR3-RBS-A10", "filetype": "text", "filename": "UTR3-RBS-A10.txt"},
+                {"name": "UTR3-RBS-A11", "filetype": "text", "filename": "UTR3-RBS-A11.txt"},
+                {"name": "UTR3-RBS-A12", "filetype": "text", "filename": "UTR3-RBS-A12.txt"}
+            ]
+        },
+
+        "library_inducible_parts_linker_lmp" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts linker LMP",
+            "type": "linker",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "LMP", "filetype": "text", "filename": "basicbiolegiolinkers.py"}
+            ]
+        },
+
+        "library_inducible_parts_linker_lms" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts linker LMS",
+            "type": "linker",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [
+                {"name": "LMS", "filetype": "text", "filename": "basicbiolegiolinkers.py"}
+            ]
+        },
+
+        "library_inducible_parts_backbone_seva26" : {
+            "score_threshold": 0.9,
+            "name": "Lycopene parts backbone pSEVA26",
+            "type": "backbone",
+            "repository": "/data/Imperial/repo-inducible",
+            "parts": [{"name": "pSEVA26", "filetype": "genbank", "filename": "SEVA_26.gb"}]
+        }
+
+    },
+
+    "template": {
+        "name": "Lycopene Inducible",
+        "UID": "lycopene-inducible",
+        "description": "Lycopene pathway with inducible promoter",
+        "structure": [
+            {
+                "type": "linker",
+                "library_source": "library_inducible_parts_linker_lmp",
+                "template_position": 1
+            },
+            {
+                "type": "promoter",
+                "library_source": "library_inducible_parts_promoters",
+                "template_position": 2
+            },
+            {
+                "type": "utr-rbs",
+                "library_source": "library_inducible_parts_utr1_rbs",
+                "template_position": 3
+            },
+            {
+                "type": "cds",
+                "library_source": "library_inducible_parts_cds_E",
+                "template_position": 4
+            },
+            {
+                "type": "utr-rbs",
+                "library_source": "library_inducible_parts_utr2_rbs",
+                "template_position": 5
+            },
+            {
+                "type": "cds",
+                "library_source": "library_inducible_parts_cds_I",
+                "template_position": 6
+            },
+            {
+                "type": "utr-rbs",
+                "library_source": "library_inducible_parts_utr3_rbs",
+                "template_position": 7
+            },
+            {
+                "type": "cds",
+                "library_source": "library_inducible_parts_cds_B",
+                "template_position": 8
+            },
+            {
+                "type": "linker",
+                "library_source": "library_inducible_parts_linker_lms",
+                "template_position": 9
+            },
+            {
+                "type": "backbone",
+                "library_source": "library_inducible_parts_backbone_seva26",
+                "template_position": 10
+            }
+
+                ]
+    },
+
+    "template_slices": [
+        { "name" : "revE", "template_slice": [2, 3, 4] },
+        { "name" : "revI", "template_slice": [5, 6] },
+        { "name" : "revB", "template_slice": [7, 8] }
+    ]
+}

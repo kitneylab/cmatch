@@ -1,0 +1,41 @@
+{
+    "component_sources": {
+        "library_vio_one_construct" : {
+            "name": "Violacein construct",
+            "type": "construct",
+            "repository": "/data/Imperial/repo/synthetic",
+            "parts": [
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0000.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0001.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0002.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0003.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0004.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0005.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0006.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0007.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0008.gb" },
+                { "name": "construct", "filetype": "genbank", "filename": "vio-0009.gb" }
+            ]
+        }
+    },
+
+
+    "template" : {
+        "name": "Violacein template with one construct",
+        "UID": "vio-0000",
+        "description": "Violacein template with one unique construct as a part",
+        "structure": [
+            {
+                "type": "construct",
+                "library_source": "library_vio_one_construct",
+                "template_position": 1
+            }
+        ]
+    },
+
+
+    "template_slices" : [
+        { "name": "construct", "template_slice": [1] }
+    ]
+
+}
