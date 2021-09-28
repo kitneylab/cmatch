@@ -3,8 +3,6 @@ biopython==1.79
 black==21.7b0
 click==8.0.1
 flake8==3.9.2
-# Editable Git install with no remote (futils==0.0.1)
--e /data/Imperial/src/futils
 isort==5.9.2
 mccabe==0.6.1
 mypy-extensions==0.4.3
