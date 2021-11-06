@@ -3,10 +3,10 @@ import logging
 from os import path
 from pathlib import Path
 
-from futils import timeit
+from ..futils import timeit
 from tqdm import tqdm
 
-from matching import Library, Sequence, match_library
+from ..matching import Library, Sequence, match_library
 
 # Logging configuration
 current_file = path.basename(__file__).split(".")[0]

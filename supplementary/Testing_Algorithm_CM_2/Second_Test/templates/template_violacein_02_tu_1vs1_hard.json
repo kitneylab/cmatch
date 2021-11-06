@@ -4,42 +4,42 @@
     "library_promoter_1" : {
         "name": "promoter1",
         "type": "promoter",
-        "repository": "/data/Imperial/repo/lycopene",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/lycopene",
         "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
     },
 
     "library_promoter_2" : {
         "name": "promoter2",
         "type": "promoter",
-        "repository": "/data/Imperial/repo/lycopene",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/lycopene",
         "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
     },
 
     "library_promoter_3" : {
         "name": "promoter3",
         "type": "promoter",
-        "repository": "/data/Imperial/repo/lycopene",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/lycopene",
         "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
     },
 
     "library_promoter_4" : {
         "name": "promoter4",
         "type": "promoter",
-        "repository": "/data/Imperial/repo/lycopene",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/lycopene",
         "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
     },
 
     "library_promoter_5" : {
         "name": "promoter5",
         "type": "promoter",
-        "repository": "/data/Imperial/repo/lycopene",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/lycopene",
         "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
     },
 
     "library_rbs_1" : {
         "name": "RBS-1",
         "type": "rbs",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"}
         ]
@@ -47,7 +47,7 @@
     "library_rbs_2" : {
         "name": "RBS-2",
         "type": "rbs",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"}
         ]
@@ -55,7 +55,7 @@
     "library_rbs_3" : {
         "name": "RBS-3",
         "type": "rbs",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"}
         ]
@@ -63,7 +63,7 @@
     "library_rbs_4" : {
         "name": "RBS-4",
         "type": "rbs",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"}
         ]
@@ -71,7 +71,7 @@
     "library_rbs_5" : {
         "name": "RBS-5",
         "type": "rbs",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"}
         ]
@@ -79,7 +79,7 @@
     "library_cds_1" : {
         "name": "VioA",
         "type": "cds",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "VioA", "filetype": "genbank", "filename": "VioA_BASIC_fragment.gb"}
         ]
@@ -87,7 +87,7 @@
     "library_cds_2" : {
         "name": "VioB",
         "type": "cds",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "VioB", "filetype": "genbank", "filename": "VioB_BASIC_fragment.gb"}
         ]
@@ -95,7 +95,7 @@
     "library_cds_3" : {
         "name": "VioC",
         "type": "cds",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "VioC", "filetype": "genbank", "filename": "VioC_BASIC_fragment.gb"}
         ]
@@ -103,7 +103,7 @@
     "library_cds_4" : {
         "name": "VioD",
         "type": "cds",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "VioD", "filetype": "genbank", "filename": "VioD_BASIC_fragment.gb"}
         ]
@@ -111,7 +111,7 @@
     "library_cds_5" : {
         "name": "VioE",
         "type": "cds",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "VioE", "filetype": "genbank", "filename": "VioE_BASIC_fragment.gb"}
         ]
@@ -119,7 +119,7 @@
     "library_terminator_1" : {
         "name": "term1",
         "type": "terminator",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
         ]
@@ -127,7 +127,7 @@
     "library_terminator_2" : {
         "name": "term2",
         "type": "terminator",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
         ]
@@ -135,7 +135,7 @@
     "library_terminator_3" : {
         "name": "term3",
         "type": "terminator",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
         ]
@@ -143,7 +143,7 @@
     "library_terminator_4" : {
         "name": "term4",
         "type": "terminator",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
         ]
@@ -151,7 +151,7 @@
     "library_terminator_5" : {
         "name": "term5",
         "type": "terminator",
-        "repository": "/data/Imperial/repo/synthetic",
+        "repository": "supplementary/Testing_Algorithm_CM_1/repo/synthetic",
         "parts": [
             {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
         ]

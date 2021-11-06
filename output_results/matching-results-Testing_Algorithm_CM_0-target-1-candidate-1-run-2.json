@@ -1,0 +1,19 @@
+[
+  {
+    "target":"vio-0000",
+    "matches":[
+      {
+        "library":"Violacein construct",
+        "candidates":[
+          {
+            "name":"construct",
+            "score":1.0,
+            "start":0,
+            "length":8397,
+            "end":8397
+          }
+        ]
+      }
+    ]
+  }
+]

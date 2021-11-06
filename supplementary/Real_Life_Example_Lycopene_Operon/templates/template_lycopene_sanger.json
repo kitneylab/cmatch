@@ -4,7 +4,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts promoters",
             "type": "promoter",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [{"name": "pTet", "filetype": "text", "filename": "pTet_P43.txt"}]
         },
 
@@ -12,7 +12,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts CDS",
             "type": "cds",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "crtE", "filetype": "text", "filename": "crtErev.txt"},
                 {"name": "crtI", "filetype": "text", "filename": "crtIrev.txt"},
@@ -24,7 +24,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts CDS",
             "type": "cds",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "crtE", "filetype": "text", "filename": "crtErev100.txt"}
             ]
@@ -34,7 +34,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts CDS",
             "type": "cds",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "crtI", "filetype": "text", "filename": "crtIrev100.txt"}
             ]
@@ -44,7 +44,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts CDS",
             "type": "cds",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "crtB", "filetype": "text", "filename": "crtBrev100.txt"}
             ]
@@ -54,7 +54,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts UTR-RBS",
             "type": "utr-rbs",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "UTR1-RBS-A01", "filetype": "text", "filename": "UTR1-RBS-A01.txt"},
                 {"name": "UTR1-RBS-A02", "filetype": "text", "filename": "UTR1-RBS-A02.txt"},
@@ -75,7 +75,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts UTR-RBS",
             "type": "utr-rbs",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "UTR2-RBS-A01", "filetype": "text", "filename": "UTR2-RBS-A01.txt"},
                 {"name": "UTR2-RBS-A02", "filetype": "text", "filename": "UTR2-RBS-A02.txt"},
@@ -96,7 +96,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts UTR-RBS",
             "type": "utr-rbs",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "UTR3-RBS-A01", "filetype": "text", "filename": "UTR3-RBS-A01.txt"},
                 {"name": "UTR3-RBS-A02", "filetype": "text", "filename": "UTR3-RBS-A02.txt"},
@@ -117,7 +117,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts linker LMP",
             "type": "linker",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "LMP", "filetype": "text", "filename": "basicbiolegiolinkers.py"}
             ]
@@ -127,7 +127,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts linker LMS",
             "type": "linker",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [
                 {"name": "LMS", "filetype": "text", "filename": "basicbiolegiolinkers.py"}
             ]
@@ -137,7 +137,7 @@
             "score_threshold": 0.9,
             "name": "Lycopene parts backbone pSEVA26",
             "type": "backbone",
-            "repository": "/data/Imperial/repo-inducible",
+            "repository": "supplementary/Real_Life_Example_Lycopene_Operon/repo/inducible",
             "parts": [{"name": "pSEVA26", "filetype": "genbank", "filename": "SEVA_26.gb"}]
         }
 
