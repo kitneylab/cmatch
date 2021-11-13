@@ -1,0 +1,37 @@
+{
+"component_sources": {
+
+    "library_vio_cat2_construct" : {
+        "name": "Violacein construct cat2",
+        "type": "construct",
+        "repository": "supplementary/Testing_Algorithm_CM_0/repo/synthetic",
+        "parts": [
+            {
+                "name": "construct",
+                "filetype": "genbank",
+                "filename": "vio0000-cat2.gb"
+            }
+        ]
+    }
+
+},
+
+
+"template" : {
+    "name": "violacein-cat2",
+    "UID": "vio-0000-cat2",
+    "description": "Violacein template cat2",
+    "structure": [
+        {
+            "type": "construct",
+            "library_source": "library_vio_cat2_construct",
+            "template_position": 1
+        }
+    ]
+},
+
+
+"template_slices" : [
+    {"name": "construct", "template_slice": [1]}
+]
+}
