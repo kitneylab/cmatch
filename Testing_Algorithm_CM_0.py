@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 from matching import Library, Sequence, match_library
 
-TEST_DIR="./supplementary/Testing_Algorithm_CM_0/"
+TEST_DIR = "./supplementary/Testing_Algorithm_CM_0/"
 
 # Logging configuration
 current_file = path.basename(__file__).split(".")[0]
@@ -186,7 +186,7 @@ def test_algo0_target_1_candidate_1():
             "seq_dir_names": ["target1/"],
         },
         "candidates": f"{TEST_DIR}/templates/template_vio_one.json",
-    #    "nbloop": 10,
+        #    "nbloop": 10,
         "nbloop": 1,
     }
 
@@ -211,7 +211,7 @@ def test_algo0_target_10_candidate_1():
             "seq_dir_names": ["target10/"],
         },
         "candidates": f"{TEST_DIR}/templates/template_vio_one.json",
-    #    "nbloop": 10,
+        #    "nbloop": 10,
         "nbloop": 1,
     }
 
@@ -234,7 +234,7 @@ def test_algo0_target_1_candidate_10():
             "seq_dir_names": ["target1/"],
         },
         "candidates": f"{TEST_DIR}/templates/template_vio_ten.json",
-    #    "nbloop": 10,
+        #    "nbloop": 10,
         "nbloop": 1,
     }
 
@@ -263,7 +263,6 @@ def test_algo0_target_1_candidate_100():
     run_test(test_params)
 
 
-
 def main():
     """
     Main
@@ -271,7 +270,6 @@ def main():
     test_algo0_target_1_candidate_1()
     test_algo0_target_10_candidate_1()
     test_algo0_target_1_candidate_10()
-
 
 
 if __name__ == "__main__":

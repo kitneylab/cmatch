@@ -1,13 +1,13 @@
 from run_cm2 import run_test
 
-TEST_DIR="./supplementary/Testing_Algorithm_CM_2/Second_Test/"
+TEST_DIR = "./supplementary/Testing_Algorithm_CM_2/Second_Test/"
 
 
 def test_cm2_vio_hard_1vsAll_th75():
     """
     Test CM_2
     Violacein
-    1 vs All 
+    1 vs All
     1 Target: Hard (B0030, B0030, B0030, B0030, B0030) (hard)
     Threshold: 0.75
     """
@@ -17,7 +17,7 @@ def test_cm2_vio_hard_1vsAll_th75():
         "id": "vio-1-hard-1vsAll-B0030-B0030-B0030-B0030-B0030-th75",
         "targets": {
             "extension": ".seq",
-            "sequences_path": f"{TEST_DIR}/sequences", 
+            "sequences_path": f"{TEST_DIR}/sequences",
             "seq_dir_names": ["rbs_tu_hard/"],
         },
         "candidates": f"{TEST_DIR}/templates/template_violacein_02_tu_1vsAll.json",

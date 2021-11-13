@@ -5,8 +5,8 @@ from pathlib import Path
 import time
 from reconstruction2 import reconstruct
 import fnmatch
-from  pprint import pprint
-from extension10 import reconstruct_slices, addition 
+from pprint import pprint
+from extension10 import reconstruct_slices, addition
 
 from futils import timeit
 from tqdm import tqdm
@@ -17,6 +17,7 @@ from matching import Library, Sequence, match_library
 current_file = path.basename(__file__).split(".")[0]
 
 LYCOPENE = True
+
 
 @timeit
 def match_libs(seq, libs, threshold=0.5):
@@ -94,15 +95,15 @@ def iter_all_seq(
     print("Target:", target)
     print("Template:", template)
     targets = target["targets"]
-    slices = template['template_slices']
+    slices = template["template_slices"]
     print("Slices:", slices)
     print("Targets_param:", targets_param)
 
     # Loop over the targets
     r = []
     order_of_targets_names = []
-    for target in targets :
-        name = target['name']
+    for target in targets:
+        name = target["name"]
         order_of_targets_names.append(name)
         # Logging
         logging.info(f"Target sequence: {name}")
@@ -110,15 +111,15 @@ def iter_all_seq(
 
         # Match the slices
         for slice in slices:
-            name = slice['name']
+            name = slice["name"]
             print("Slice name:", name)
-            slice_file = target['slices'][name]
+            slice_file = target["slices"][name]
             print("Slice file:", slice_file)
             sq = Sequence(slice_file)
             json_to_output = {}
-            print("Sq name:",sq.name)
+            print("Sq name:", sq.name)
             json_to_output["target"] = sq.name
-            json_to_output['slice'] = name # "revE" 
+            json_to_output["slice"] = name  # "revE"
             # Get libs from template
             libs = get_slices_libs(template)
             print("Libs:", libs)
@@ -144,9 +145,8 @@ def iter_all_seq(
     # Extension and Addition to reconstruct the full pathway
     ex = reconstruct_slices(reconstruction_result, template, targets)
     print("Extension:", ex)
-    with open(extension_output_filename , "w") as filename:
+    with open(extension_output_filename, "w") as filename:
         json.dump(ex, filename, indent=2, separators=(",", ":"))
-
 
 
 def run_test(test_params):
@@ -191,11 +191,10 @@ def run_test(test_params):
         )
 
         # Final results filename
-        extension_output_filename = f"{timestr}-extension-{current_file}-{test_id}-run-{i+1}-from-{nbloop}.json"
-        extension_output_filename =  path.join(
-            OUTPUT_DIR, extension_output_filename
+        extension_output_filename = (
+            f"{timestr}-extension-{current_file}-{test_id}-run-{i+1}-from-{nbloop}.json"
         )
-
+        extension_output_filename = path.join(OUTPUT_DIR, extension_output_filename)
 
         # Iterate and match libs
         iter_all_seq(
@@ -206,6 +205,7 @@ def run_test(test_params):
             extension_output_filename,
             threshold,
         )
+
 
 def main():
     """

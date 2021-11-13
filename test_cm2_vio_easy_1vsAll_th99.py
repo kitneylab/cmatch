@@ -1,13 +1,13 @@
 from run_cm2 import run_test
 
-TEST_DIR="./supplementary/Testing_Algorithm_CM_2/Second_Test/"
+TEST_DIR = "./supplementary/Testing_Algorithm_CM_2/Second_Test/"
 
 
 def test_cm2_vio_easy_1vsAll_th99():
     """
     Test CM_2
     Violacein
-    1 vs All 
+    1 vs All
     Ease B0030-B0064
     Threshold: 0.99
     """
@@ -17,7 +17,7 @@ def test_cm2_vio_easy_1vsAll_th99():
         "id": "vio-1-easy-1vsAll-B0030-B0031-B0032-B0033-B0064-th99",
         "targets": {
             "extension": ".seq",
-            "sequences_path": f"{TEST_DIR}/sequences", 
+            "sequences_path": f"{TEST_DIR}/sequences",
             "seq_dir_names": ["rbs_tu_easy/"],
         },
         "candidates": f"{TEST_DIR}/templates/template_violacein_02_tu_1vsAll.json",

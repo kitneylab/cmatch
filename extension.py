@@ -2,7 +2,7 @@ from os import path
 from futils import timeit, read_json
 from pprint import pprint
 
-LYCOPENE = True
+LYCOPENE = False
 
 TEMPLATE_DIR = "/data/Imperial/src/matching/templates/"
 TEMPLATE_FILE = "template_violacein_02_tu_1vs1_easy.json"
@@ -90,6 +90,11 @@ def slice_from_primer(primer):
             "tu3": "TU-3",
             "tu4": "TU-4",
             "tu5": "TU-5",
+            "tu6": "TU-6",
+            "tu7": "TU-7",
+            "tu8": "TU-8",
+            "tu9": "TU-9",
+            "tu10": "TU-10",
         }
     return primer_slice[primer]
 
@@ -115,6 +120,8 @@ def reconstruct_slices(rec, template, targets_order):
 
         else:
             tu = target_name[-3:]
+        print("TARGETNAME:", target_name)
+        print("PRIMER:", tu)
         slice = slice_from_primer(tu)
         for target in rec:
             # TODO

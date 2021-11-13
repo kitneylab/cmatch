@@ -5,8 +5,8 @@ from pathlib import Path
 import time
 from reconstruction import reconstruct
 import fnmatch
-from  pprint import pprint
-from extension import reconstruct_slices, addition 
+from pprint import pprint
+from extension import reconstruct_slices, addition
 
 from futils import timeit
 from tqdm import tqdm
@@ -17,6 +17,7 @@ from matching import Library, Sequence, match_library
 current_file = path.basename(__file__).split(".")[0]
 
 LYCOPENE = False
+
 
 @timeit
 def match_libs(seq, libs, threshold=0.5):
@@ -126,30 +127,30 @@ def iter_all_seq(
     # Get order of target sequences from the template slices order
     if LYCOPENE:
         slice_primer = {
-                "revE": "CrtE",
-                "revI": "CrtI",
-                "revB": "CrtB",
-            }
+            "revE": "CrtE",
+            "revI": "CrtI",
+            "revB": "CrtB",
+        }
     else:
         slice_primer = {
-            'TU-1': "tu1",
-            'TU-2': "tu2",
-            'TU-3': "tu3",
-            'TU-4': "tu4",
-            'TU-5': "tu5",
+            "TU-1": "tu1",
+            "TU-2": "tu2",
+            "TU-3": "tu3",
+            "TU-4": "tu4",
+            "TU-5": "tu5",
         }
-    slices = template['template_slices']
+    slices = template["template_slices"]
     order_of_targets_paths = []
-    order_of_targets_names = [] 
+    order_of_targets_names = []
     for slice in slices:
-        name = slice['name']
+        name = slice["name"]
         primer = slice_primer[name]
         for f in seq_filenames:
-            pattern = "*"+primer+"*"
+            pattern = "*" + primer + "*"
             print(f, pattern)
-            print("Name: ",f.name.split('.')[0])
+            print("Name: ", f.name.split(".")[0])
             if f.match(pattern):
-                order_of_targets_names.append(f.name.split('.')[0])
+                order_of_targets_names.append(f.name.split(".")[0])
                 order_of_targets_paths.append(f)
 
     print(order_of_targets_paths)
@@ -169,32 +170,34 @@ def iter_all_seq(
 
         # Primer
         print(sq.name)
-        #TODO name shit
+        # TODO name shit
         if LYCOPENE:
-            primer = sq.name.split("_")[-2] # "BASIC_construct_UTR1-RBS-A12-UTR2-RBS-A12-UTR3-RBS-A12_CrtI_01"
+            primer = sq.name.split("_")[
+                -2
+            ]  # "BASIC_construct_UTR1-RBS-A12-UTR2-RBS-A12-UTR3-RBS-A12_CrtI_01"
             print("PRIMER:", primer)
             if primer == "CrtE":
-                libs_to_match = libs['revE']
+                libs_to_match = libs["revE"]
             elif primer == "CrtB":
-                libs_to_match = libs['revB']
+                libs_to_match = libs["revB"]
             elif primer == "CrtI":
-                libs_to_match = libs['revI']
+                libs_to_match = libs["revI"]
             else:
-                raise OSError("Primer not found",sq.name)
+                raise OSError("Primer not found", sq.name)
         else:
-            primer = sq.name.split("_")[2] # "vio_000_tu5"
+            primer = sq.name.split("_")[2]  # "vio_000_tu5"
             if primer == "tu1":
-                libs_to_match = libs['TU-1']
+                libs_to_match = libs["TU-1"]
             elif primer == "tu2":
-                libs_to_match = libs['TU-2']
+                libs_to_match = libs["TU-2"]
             elif primer == "tu3":
-                libs_to_match = libs['TU-3']
+                libs_to_match = libs["TU-3"]
             elif primer == "tu4":
-                libs_to_match = libs['TU-4']
+                libs_to_match = libs["TU-4"]
             elif primer == "tu5":
-                libs_to_match = libs['TU-5']
+                libs_to_match = libs["TU-5"]
             else:
-                raise OSError("Primer not found",sq.name)
+                raise OSError("Primer not found", sq.name)
 
         # Match sequence
         matches = match_libs(sq, libs_to_match, threshold=threshold)
@@ -216,11 +219,8 @@ def iter_all_seq(
     print(reconstruction_result)
     ex = reconstruct_slices(reconstruction_result, template, order_of_targets_names)
     print(ex)
-    ex_res = {
-            'target_slices': order_of_targets_names,
-            'full_reconstruction': ex
-            }
-    with open(extension_output_filename , "w") as filename:
+    ex_res = {"target_slices": order_of_targets_names, "full_reconstruction": ex}
+    with open(extension_output_filename, "w") as filename:
         json.dump(ex_res, filename, indent=2, separators=(",", ":"))
 
 
@@ -266,11 +266,10 @@ def run_test(test_params):
         )
 
         # Final results filename
-        extension_output_filename = f"{timestr}-extension-{current_file}-{test_id}-run-{i+1}-from-{nbloop}.json"
-        extension_output_filename =  path.join(
-            OUTPUT_DIR, extension_output_filename
+        extension_output_filename = (
+            f"{timestr}-extension-{current_file}-{test_id}-run-{i+1}-from-{nbloop}.json"
         )
-
+        extension_output_filename = path.join(OUTPUT_DIR, extension_output_filename)
 
         # Iterate and match libs
         iter_all_seq(
@@ -282,8 +281,10 @@ def run_test(test_params):
             threshold,
         )
 
+
 # /////////////////////////////////////////////////////////////////////////////////////////////
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_1_target_hard_th99():
     """
@@ -356,7 +357,9 @@ def test_algo1_1_target_easy_th99():
 
     run_test(test_params)
 
+
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_1_target_1to1_hard_th75():
     """
@@ -455,6 +458,7 @@ def test_algo1_1_target_1to1_easy_th99():
 
 
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_2_targets_th99():
     """

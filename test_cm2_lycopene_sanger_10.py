@@ -1,6 +1,6 @@
 from run_cm2_10 import run_test
 
-TEST_DIR="./supplementary/Real_Life_Example_Lycopene_Operon/"
+TEST_DIR = "./supplementary/Real_Life_Example_Lycopene_Operon/"
 
 
 def test_cm2_lycopene_10():

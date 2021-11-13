@@ -60,3 +60,25 @@ Install teh dependencies
     $ python test_cm2_lycopene_sanger_100.py
 
 ```
+
+### Run the tests for algorithms CM_1, CM_2 Violacein-0000 cat x2 and cat x3
+
+```
+    $ python cm1_cat2.py
+    $ python cm1_cat2min.py
+```
+
+```
+    $ python cm1_cat3.py
+    $ python cm1_cat3min.py
+```
+
+```
+    $ python cm2_cat2.py
+    $ python cm2_cat2min.py
+```
+
+```
+    $ python cm2_cat3.py
+    $ python cm2_cat3min.py
+```

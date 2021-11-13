@@ -40,7 +40,7 @@ def reconstruct(matches):
     Reconstruction
 
     Args:
-        matches (dict): JSON object 
+        matches (dict): JSON object
 
     Returns:
         list of dict containing the target, reconstruct, score and parts list
@@ -75,28 +75,28 @@ def reconstruct(matches):
 
     """
     # Read the JSON file with all the matches to reconstruct
-    #targets = read_matches(matches)
+    # targets = read_matches(matches)
 
     # Read the input list directly
     targets = matches
     target_reconstructions = []
     # Reconstruct each target
     for target in targets:
-        print("\n"+ "="*80)
+        print("\n" + "=" * 80)
         print("Target:", target["target"])
         libs = target["matches"][::-1]
-        #libs = target["matches"]
+        # libs = target["matches"]
         candidates = []
 
         # Root
         paths = []
-        #print("LIBS:", libs)
-        print("-"*80)
-        pprint([ l['library']for l in libs])
-        print("-"*80)
+        # print("LIBS:", libs)
+        print("-" * 80)
+        pprint([l["library"] for l in libs])
+        print("-" * 80)
         print("Root:\n\t")
         pprint(libs[0]["candidates"])
-        print("-"*80)
+        print("-" * 80)
         for e in libs[0]["candidates"]:
             paths.append([e])
 
@@ -110,11 +110,13 @@ def reconstruct(matches):
             # Add new lib
             np = []
             for pa in paths:
-                aa = sorted(libs[i]["candidates"], key=lambda d: d['score'] , reverse=True)
-                #print("\tSorted by score:", aa)
+                aa = sorted(
+                    libs[i]["candidates"], key=lambda d: d["score"], reverse=True
+                )
+                # print("\tSorted by score:", aa)
                 aa = aa[0:1]
-                #print("\tSorted by score2:", aa)
-                #TODO verify highest score
+                # print("\tSorted by score2:", aa)
+                # TODO verify highest score
                 for e in aa:
                     new = pa.copy()
                     new.append(e)
@@ -133,7 +135,6 @@ def reconstruct(matches):
                     paths.append(p)
             print("\tafter pruning:", len(paths))
 
-
         nn = []
         for path in paths:
             nn.append(path[::-1])
@@ -147,7 +148,7 @@ def reconstruct(matches):
                 "slice": target["slice"],
                 "reconstruct": names[i],
                 "score": scores[i],
-                'path': nn[i],
+                "path": nn[i],
             }
             r.append(d)
         target_reconstructions.append(r)
@@ -167,10 +168,10 @@ def main():
         level=logging.DEBUG,
     )
 
-    #TEMPLATE = "/data/Imperial/src/matching/templates/template_violacein_02.json"
-    #RES_DIR = "/data/Imperial/src/matching/output_results/"
-    #RES = "matching-results-run_algo1-2-targets-template-run-0-20210804-130134.json"
-    #MATCHES = path.join(RES_DIR, RES)
+    # TEMPLATE = "/data/Imperial/src/matching/templates/template_violacein_02.json"
+    # RES_DIR = "/data/Imperial/src/matching/output_results/"
+    # RES = "matching-results-run_algo1-2-targets-template-run-0-20210804-130134.json"
+    # MATCHES = path.join(RES_DIR, RES)
     TEMPLATE = "/data/Imperial/src/matching/templates/template_lycopene_sanger.json"
     RES_DIR = "/data/Imperial/src/matching/output_results/"
     RES = "20210807-185353-matching-results-run_cm2_2-cm2-lycopene-1target-UTR1-RBS-A12-UTR2-RBS-A12-UTR3-RBS-A12-CrtI-th05-run-1-from-1.json"

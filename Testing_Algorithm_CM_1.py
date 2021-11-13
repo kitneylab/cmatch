@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 from matching import Library, Sequence, match_library
 
-TEST_DIR="./supplementary/Testing_Algorithm_CM_1/"
+TEST_DIR = "./supplementary/Testing_Algorithm_CM_1/"
 
 # Logging configuration
 current_file = path.basename(__file__).split(".")[0]
@@ -200,9 +200,8 @@ def run_test(test_params):
         )
 
 
-
-
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_1_target_hard_th75():
     """
@@ -323,7 +322,9 @@ def test_algo1_1_target_easy_th99():
 
     run_test(test_params)
 
+
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_1_target_1to1_hard_th75():
     """
@@ -422,6 +423,7 @@ def test_algo1_1_target_1to1_easy_th99():
 
 
 # /////////////////////////////////////////////////////////////////////////////////////////
+
 
 def test_algo1_2_targets_th99():
     """
