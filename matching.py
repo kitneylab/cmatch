@@ -5,6 +5,7 @@ from string import whitespace
 from typing import List
 from futils import timeit
 import logging
+import sbol2
 
 from Bio import Seq, SeqIO, SeqRecord, pairwise2
 
@@ -38,6 +39,27 @@ def file_to_seqrec(f: str):
     return seqrec
 
 
+def sbol_to_seqrec(f: str):
+    """
+    Read an SBOL file and return SeqRec 
+
+    :param filename: Filename to read and convert to SeqRec (string)
+
+    :returns: SeqRecord
+    """
+    basename = path.basename(f)
+    name = path.splitext(basename)[0]
+    doc = sbol2.Document()
+    doc.read(f)
+    # Here we assume the sbol has one element
+    # TODO do this properly if doc has multiple elements (?)
+    # TODO get name from SBOL document
+    s = doc.sequences[0].elements.upper()
+    seq = Seq.Seq(s)
+    seqrec = SeqRecord.SeqRecord(seq, id=name, name=name, description=name)
+    return seqrec
+
+
 class Part:
     """
     Part class
@@ -56,6 +78,8 @@ class Part:
             self.sequence = SeqIO.read(filepath, self.filetype)
         elif self.filetype == "text":
             self.sequence = file_to_seqrec(filepath)
+        elif self.filetype == "sbol":
+            self.sequence = sbol_to_seqrec(filepath)
         else:
             raise ValueError(
                 "Unrecognized filetype. Only Genbank and Text files are handled."
