@@ -3,7 +3,7 @@
         "library_vio_one_construct" : {
             "name": "Violacein construct",
             "type": "construct",
-            "repository": "/data/Imperial/repo/synthetic",
+            "repository": "supplementary/Testing_Algorithm_CM_0/repo/synthetic",
             "parts": [
                 { "name": "construct", "filetype": "genbank", "filename": "vio-0000.gb" },
                 { "name": "construct", "filetype": "genbank", "filename": "vio-0001.gb" },
