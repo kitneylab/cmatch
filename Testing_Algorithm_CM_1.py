@@ -501,18 +501,18 @@ def main():
     Main
     """
 
-    test_algo1_1_target_hard_th75()
-    test_algo1_1_target_hard_th99()
-    test_algo1_1_target_easy_th75()
-    test_algo1_1_target_easy_th99()
+    #test_algo1_1_target_hard_th75()
+    #test_algo1_1_target_hard_th99()
+    #test_algo1_1_target_easy_th75()
+    #test_algo1_1_target_easy_th99()
 
-    test_algo1_1_target_1to1_hard_th75()
-    test_algo1_1_target_1to1_hard_th99()
-    test_algo1_1_target_1to1_easy_th75()
-    test_algo1_1_target_1to1_easy_th99()
+    #test_algo1_1_target_1to1_hard_th75()
+    #test_algo1_1_target_1to1_hard_th99()
+    #test_algo1_1_target_1to1_easy_th75()
+    #test_algo1_1_target_1to1_easy_th99()
 
-    test_algo1_2_targets_th75()
-    test_algo1_2_targets_th99()
+    #test_algo1_2_targets_th75()
+    #test_algo1_2_targets_th99()
     test_algo1_10_targets()
 
 

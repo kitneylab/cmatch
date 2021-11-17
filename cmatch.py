@@ -1,5 +1,5 @@
 #!/usr/bin/env python
- 
+
 import json
 import logging
 import os
@@ -148,7 +148,7 @@ def iter_all_seq(
         json.dump(r, filename, indent=2, separators=(",", ":"))
 
 
-def match(template, threshold=0.99, *targets ):
+def match(template, threshold=0.99, *targets):
     """
     Match
     """
@@ -171,18 +171,17 @@ def match(template, threshold=0.99, *targets ):
     reconstruction_result = reconstruct(r)
     ss = json.dumps(reconstruction_result, indent=2, separators=(",", ":"))
 
-    return(ss)
+    return ss
 
 
-
-@plac.pos('template', "JSON construct template. Example: consruct_template.json")
-@plac.pos('targets', f"Target sequence files. Example: Sanger008.seq", type=str)
-@plac.opt('threshold', "Threshold", type=float)
+@plac.pos("template", "JSON construct template. Example: consruct_template.json")
+@plac.pos("targets", f"Target sequence files. Example: Sanger008.seq", type=str)
+@plac.opt("threshold", "Threshold", type=float)
 def main(template, threshold=0.99, *targets):
     """
     cMatch command line tool
     """
-    result = match(template, threshold, *targets )
+    result = match(template, threshold, *targets)
     print(result)
 
 

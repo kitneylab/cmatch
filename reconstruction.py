@@ -80,9 +80,10 @@ def reconstruct(matches):
     # Read the input list directly
     targets = matches
     target_reconstructions = []
+
     # Reconstruct each target
     for target in targets:
-        print("Target:", target["target"])
+        #print("Target:", target["target"])
         libs = target["matches"]
         candidates = []
 
@@ -90,37 +91,40 @@ def reconstruct(matches):
         paths = []
         for e in libs[0]["candidates"]:
             paths.append([e])
+        #print("\tPAAAA", paths)
 
-        print(strftime("%Y%m%d-%H%M%S"))
-        print("Depth:", 0)
-        print("\tnb paths:", len(paths))
+        #print(strftime("%Y%m%d-%H%M%S"))
+        #print("Depth:", 0)
+        #print("\tnb paths:", len(paths))
 
         for i in range(1, len(libs), 1):
             # Add new lib
             np = []
             for pa in paths:
+                #print(libs[i]['candidates'])
                 aa = sorted(
                     libs[i]["candidates"], key=lambda d: d["score"], reverse=True
                 )
-                print(aa)
-                aa = aa[0:1]
+                #aa = aa[0:1]
+                #print("aa:", aa)
                 # TODO verify highest score
                 for e in aa:
                     new = pa.copy()
                     new.append(e)
                     np.append(new)
-            print(np)
+            #pprint(np)
             # Prune
             paths = []
 
-            print("Depth:", i)
-            print("\tnb paths:", len(np))
+            #print("\nDepth:", i)
+            #print("\tnb paths:", len(np))
             for p in np:
-                print(p)
+                #print("Path:", p)
+                #print(p[i - 1]["end"], p[i]["start"])
                 if p[i - 1]["end"] <= p[i]["start"]:
-                    print("ADDDDING:", p)
+                    #print("\tADDDDING:", p)
                     paths.append(p)
-            print("\tafter pruning:", len(paths))
+            #print("\tafter pruning:", len(paths))
         scores = compute_scores(paths)
         names = construct_names(paths)
         r = []
@@ -133,7 +137,11 @@ def reconstruct(matches):
             }
             r.append(d)
         target_reconstructions.append(r)
-    return target_reconstructions
+        rep = []
+        for rr in target_reconstructions:
+            w = sorted( rr, key=lambda d: d["score"], reverse=True)
+            rep.append(w[0])
+    return rep 
 
 
 def main():
@@ -149,18 +157,18 @@ def main():
         level=logging.DEBUG,
     )
 
-    # TEMPLATE = "/data/Imperial/src/matching/templates/template_violacein_02.json"
-    # RES_DIR = "/data/Imperial/src/matching/output_results/"
-    # RES = "matching-results-run_algo1-2-targets-template-run-0-20210804-130134.json"
-    # MATCHES = path.join(RES_DIR, RES)
-    TEMPLATE = "/data/Imperial/src/matching/templates/template_lycopene_sanger.json"
+    TEMPLATE = "/data/Imperial/src/matching/templates/template_violacein_02.json"
     RES_DIR = "/data/Imperial/src/matching/output_results/"
-    RES = "20210807-185353-matching-results-run_cm2_2-cm2-lycopene-1target-UTR1-RBS-A12-UTR2-RBS-A12-UTR3-RBS-A12-CrtI-th05-run-1-from-1.json"
+    RES = "matching-results-run_algo1-2-targets-template-run-0-20210804-130134.json"
     MATCHES = path.join(RES_DIR, RES)
+    #TEMPLATE = "/data/Imperial/src/matching/templates/template_lycopene_sanger.json"
+    #RES_DIR = "/data/Imperial/src/matching/output_results/"
+    #RES = "20210807-185353-matching-results-run_cm2_2-cm2-lycopene-1target-UTR1-RBS-A12-UTR2-RBS-A12-UTR3-RBS-A12-CrtI-th05-run-1-from-1.json"
+    #MATCHES = path.join(RES_DIR, RES)
 
     r = reconstruct(read_json(MATCHES))
-    print("Reconstruction:", r)
-    print("Length:", len(r))
+    pprint(r)
+
 
 
 if __name__ == "__main__":
