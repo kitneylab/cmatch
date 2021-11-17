@@ -1,0 +1,184 @@
+{
+"component_sources": {
+
+    "library_promoter_1" : {
+        "name": "promoter1",
+        "type": "promoter",
+        "repository": ".",
+        "parts": [{"name": "J23101", "filetype": "genbank", "filename": "BBa_J23101.gb"}]
+    },
+
+    "library_rbs_1" : {
+        "name": "RBS-1",
+        "type": "rbs",
+        "repository": ".",
+        "parts": [
+            {"name": "B0030", "filetype": "genbank", "filename": "BBa_B0030.gb"},
+            {"name": "B0031", "filetype": "genbank", "filename": "BBa_B0031.gb"},
+            {"name": "B0032", "filetype": "genbank", "filename": "BBa_B0032.gb"},
+            {"name": "B0033", "filetype": "genbank", "filename": "BBa_B0033.gb"},
+            {"name": "B0064", "filetype": "genbank", "filename": "BBa_B0064.gb"}
+        ]
+    },
+    "library_cds_1" : {
+        "name": "VioA",
+        "type": "cds",
+        "repository": ".",
+        "parts": [
+            {"name": "VioA", "filetype": "genbank", "filename": "VioA_BASIC_fragment.gb"}
+        ]
+    },
+    "library_cds_2" : {
+        "name": "VioB",
+        "type": "cds",
+        "repository": ".",
+        "parts": [
+            {"name": "VioB", "filetype": "genbank", "filename": "VioB_BASIC_fragment.gb"}
+        ]
+    },
+    "library_cds_3" : {
+        "name": "VioC",
+        "type": "cds",
+        "repository": ".",
+        "parts": [
+            {"name": "VioC", "filetype": "genbank", "filename": "VioC_BASIC_fragment.gb"}
+        ]
+    },
+    "library_cds_4" : {
+        "name": "VioD",
+        "type": "cds",
+        "repository": ".",
+        "parts": [
+            {"name": "VioD", "filetype": "genbank", "filename": "VioD_BASIC_fragment.gb"}
+        ]
+    },
+    "library_cds_5" : {
+        "name": "VioE",
+        "type": "cds",
+        "repository": ".",
+        "parts": [
+            {"name": "VioE", "filetype": "genbank", "filename": "VioE_BASIC_fragment.gb"}
+        ]
+    },
+    "library_terminator_1" : {
+        "name": "term1",
+        "type": "terminator",
+        "repository": ".",
+        "parts": [
+            {"name": "B0015", "filetype": "genbank", "filename": "BBa_B0015.gb"}
+        ]
+    }
+},
+
+"template": {
+    "name": "ViolaceinABCDE",
+    "UID": "Violacein ABCDE",
+    "description": "Violacein 5 TUs ABCDE",
+    "structure": [
+        {
+            "type": "promoter",
+            "library_source": "library_promoter_1",
+            "template_position": 1
+        },
+        {
+            "type": "rbs",
+            "library_source": "library_rbs_1",
+            "template_position": 2
+        },
+        {
+            "type": "cds",
+            "library_source": "library_cds_1",
+            "template_position": 3
+        },
+        {
+            "type": "terminator",
+            "library_source": "library_terminator_1",
+            "template_position": 4
+        },
+ {
+            "type": "promoter",
+            "library_source": "library_promoter_1",
+            "template_position": 5
+        },
+        {
+            "type": "rbs",
+            "library_source": "library_rbs_1",
+            "template_position": 6
+        },
+        {
+            "type": "cds",
+            "library_source": "library_cds_2",
+            "template_position": 7
+        },
+        {
+            "type": "terminator",
+            "library_source": "library_terminator_1",
+            "template_position": 8
+        },
+ {
+            "type": "promoter",
+            "library_source": "library_promoter_1",
+            "template_position": 9
+        },
+        {
+            "type": "rbs",
+            "library_source": "library_rbs_1",
+            "template_position": 10
+        },
+        {
+            "type": "cds",
+            "library_source": "library_cds_3",
+            "template_position": 11 
+        },
+        {
+            "type": "terminator",
+            "library_source": "library_terminator_1",
+            "template_position": 12
+        },
+ {
+            "type": "promoter",
+            "library_source": "library_promoter_1",
+            "template_position": 13
+        },
+        {
+            "type": "rbs",
+            "library_source": "library_rbs_1",
+            "template_position": 14
+        },
+        {
+            "type": "cds",
+            "library_source": "library_cds_4",
+            "template_position": 15
+        },
+        {
+            "type": "terminator",
+            "library_source": "library_terminator_1",
+            "template_position": 16
+        },
+ {
+            "type": "promoter",
+            "library_source": "library_promoter_1",
+            "template_position": 17
+        },
+        {
+            "type": "rbs",
+            "library_source": "library_rbs_1",
+            "template_position": 18
+        },
+        {
+            "type": "cds",
+            "library_source": "library_cds_5",
+            "template_position": 19
+        },
+        {
+            "type": "terminator",
+            "library_source": "library_terminator_1",
+            "template_position": 20
+        }
+    ]
+},
+
+"template_slices": [
+    { "name" : "construct", "template_slice":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+]
+}
