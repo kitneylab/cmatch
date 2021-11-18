@@ -30,14 +30,15 @@ run cmatch.py
 
 ## Simple Example 
 
-Run cMatch on a simple example, matching the violacein template and two synthetic violacein constructs
+Run cMatch on a simple example, matching the violacein template (template.json) and two synthetic violacein constructs (vio-B0030-B0030-B0030-B0030-B0030.seq, vio-B0030-B0031-B0032-B0033-B0064.seq).
+
 
 ```
-    $ cd simple_example
+    $ cd simple_example/
     $ ../cmatch.py template.json vio-B0030-B0030-B0030-B0030-B0030.seq vio-B0030-B0031-B0032-B0033-B0064.seq
 ```
 
-the tool will output a JSON
+The cmatch tool will output JSON.
 
 
 ## Run the tests

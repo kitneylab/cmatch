@@ -1,0 +1,14 @@
+LOCUS       BBa_B0032                 13 bp    DNA     linear       22-Jul-2021
+DEFINITION  RBS.3 (medium) -- derivative of BBa_0030
+ACCESSION   BBa_B0032
+VERSION     BBa_B0032.1  
+FEATURES             Location/Qualifiers
+     RBS             1..13
+                     /label=RBS-3\Weak
+     RBS             7..10
+                     /label=RBS
+     misc_feature    1..13
+                     /label=BBa_B0032
+ORIGIN
+        1 tcacacagga aag
+//

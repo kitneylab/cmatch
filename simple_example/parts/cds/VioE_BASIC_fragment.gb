@@ -1,0 +1,36 @@
+LOCUS       Exported                 612 bp ds-DNA     linear   UNA 01-NOV-2019
+DEFINITION  natural linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 612)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Friday, Jul 16, 2021 from SnapGene Viewer 5.1.4
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..612
+                     /organism="unspecified"
+                     /mol_type="genomic DNA"
+     CDS             19..594
+                     /codon_start=1
+                     /label=VioE
+                     /translation="MENREPPLLPARWSSAYVSYWSPMLPDDQLTSGYCWFDYERDICR
+                     IDGLFNPWSERDTGYRLWMSEVGNAASGRTWKQKVAYGRERTALGEQLCERPLDDETGP
+                     FAELFLPRDVLRRLGARHIGRRVVLGREADGWRYQRPGKGPSTLYLDAASGTPLRMVTG
+                     DEASRASLRDFPNVSEAEIPDAVFAAKR"
+ORIGIN
+        1 tctggtgggt ctctgtccat ggagaaccgt gagccaccac tgttgccagc ccgttggagc
+       61 agcgcctatg tctcttattg gagcccgatg ctgccggatg accagctgac cagcggctat
+      121 tgctggttcg actatgaacg tgacatctgt cgtattgacg gcctgttcaa tccgtggagc
+      181 gagcgtgata ctggttatcg cctgtggatg tcggaggttg gtaatgcggc cagcggccgt
+      241 acctggaaac aaaaagtcgc ctatggtcgt gagcgtaccg ccctgggtga acagctgtgt
+      301 gagcgtccgc tggatgatga gactggccct tttgccgaat tgttcctgcc acgcgatgtc
+      361 ctgcgccgtc tgggtgcccg tcacattggc cgtcgcgtgg ttctgggtcg cgaagcggac
+      421 ggttggcgtt accagcgccc aggtaaaggt ccgagcaccc tgtacctgga tgcggcgagc
+      481 ggcactccac tgcgcatggt caccggcgat gaagcgtcgc gtgcaagcct gcgtgatttt
+      541 ccgaatgtga gcgaggcgga gatcccggac gcggttttcg cggccaagcg ctaaggctcg
+      601 ggagacctat cg
+//

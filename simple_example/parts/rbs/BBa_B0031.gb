@@ -1,0 +1,10 @@
+LOCUS       BBa_B0031                 14 bp    DNA     linear       22-Jul-2021
+DEFINITION  RBS.2 (weak) -- derivative of BBa_0030
+ACCESSION   BBa_B0031
+VERSION     BBa_B0031.1  
+FEATURES             Location/Qualifiers
+     misc_feature    7..10
+                     /label=conserved
+ORIGIN
+        1 tcacacagga aacc
+//

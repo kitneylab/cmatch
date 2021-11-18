@@ -1,0 +1,8 @@
+LOCUS       BBa_B0035                 14 bp    DNA     linear       22-Jul-2021
+DEFINITION  RBS (B0030 derivative)
+ACCESSION   BBa_B0035
+VERSION     BBa_B0035.1  
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 attaaagagg agaa
+//

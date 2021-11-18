@@ -1,0 +1,52 @@
+LOCUS       Exported                1326 bp ds-DNA     linear   UNA 01-NOV-2019
+DEFINITION  natural linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 1326)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Friday, Jul 16, 2021 from SnapGene Viewer 5.1.4
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1326
+                     /organism="unspecified"
+                     /mol_type="genomic DNA"
+     CDS             19..1308
+                     /codon_start=1
+                     /label=VioC
+                     /translation="MKRAIIVGGGLAGGLTAIYLAKRGYEVHVVEKRGDPLRDLSSYVD
+                     VVSSRAIGVSMTVRGIKSVLAAGIPRAELDACGEPIVAMAFSVGGQYRMRELKPLEDFR
+                     PLSLNRAAFQKLLNKYANLAGVRYYFEHKCLDVDLDGKSVLIQGKDGQPQRLQGDMIIG
+                     ADGAHSAVRQAMQSGLRRFEFQQTFFRHGYKTLVLPDAQALGYRKDTLYFFGMDSGGLF
+                     AGRAATIPDGSVSIAVCLPYSGSPSLTTTDEPTMRAFFDRYFGGLPRDARDEMLRQFLA
+                     KPSNDLINVRSSTFHYKGNVLLLGDAAHATAPFLGQGMNMALEDARTFVELLDRHQGDQ
+                     DKAFPEFTELRKVQADAMQDMARANYDVLSCSNPIFFMRARYTRYMHSKFPGLYPPDMA
+                     EKLYFTSEPYDRLQQIQRKQNVWYKIGRVN"
+ORIGIN
+        1 tctggtgggt ctctgtccat gaaacgtgcg attatcgttg gtggcggcct ggcgggtggc
+       61 ctgaccgcga tctacctggc gaagcgtggc tacgaagtgc acgtcgtgga gaagcgtggt
+      121 gatcctctgc gcgatctgag ctcttacgtg gacgttgtta gcagccgtgc gatcggcgtg
+      181 agcatgaccg ttcgtggtat caagagcgtt ttggctgcgg gcattccgcg tgcagagctg
+      241 gatgcgtgtg gcgaaccgat cgtggcaatg gctttctccg tgggtggtca gtatcgcatg
+      301 cgcgaactga agccgttgga ggatttccgt ccgctgagct tgaaccgtgc ggcgtttcaa
+      361 aagctgctga acaaatacgc gaacctggca ggcgttcgtt actactttga gcataagtgc
+      421 ctggatgttg acctggatgg taagagcgtg ttgattcagg gcaaagatgg tcagccgcag
+      481 cgtctgcaag gtgacatgat tatcggtgcg gatggcgccc acagcgccgt ccgtcaggcg
+      541 atgcagagcg gcctgcgtcg tttcgagttc cagcaaacgt tcttccgcca tggctacaaa
+      601 accctggttt tgccggacgc gcaagcactg ggttaccgta aagacacgct gtactttttc
+      661 ggcatggatt ccggtggcct gttcgcgggt cgtgcggcta cgatcccaga tggtagcgtc
+      721 agcatcgccg tttgcctgcc gtactcgggt agcccttccc tgacgaccac cgacgaaccg
+      781 acgatgcgtg cgttcttcga tcgttacttc ggtggcctgc cgcgtgacgc gcgtgacgaa
+      841 atgctgcgtc agtttctggc gaagccgagc aacgacctga ttaacgtgcg ctctagcacc
+      901 tttcactata agggtaatgt gctgttgctg ggtgatgctg cgcatgcgac tgcgccgttc
+      961 ctgggtcagg gtatgaacat ggcgctggag gacgcccgca cgtttgtcga gctgctggac
+     1021 cgccaccagg gcgaccaaga caaagccttt ccggagttca cggagctgcg caaagtccag
+     1081 gcagacgcaa tgcaagacat ggctcgcgcc aactatgacg ttttgagctg ctcgaacccg
+     1141 atctttttca tgcgtgcgcg ttacacgcgt tacatgcatt ccaagtttcc gggcctgtat
+     1201 ccgccggata tggccgagaa actgtacttt acgagcgagc cgtacgatcg tctgcaacaa
+     1261 atccagcgta aacagaatgt ttggtacaag attggtcgcg tgaattgagg ctcgggagac
+     1321 ctatcg
+//

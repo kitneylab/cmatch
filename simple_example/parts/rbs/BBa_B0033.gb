@@ -1,0 +1,14 @@
+LOCUS       BBa_B0033                 11 bp    DNA     linear       22-Jul-2021
+DEFINITION  RBS.4 (weaker) -- derivative of BBa_0030
+ACCESSION   BBa_B0033
+VERSION     BBa_B0033.1  
+FEATURES             Location/Qualifiers
+     RBS             1..11
+                     /label=RBS-4\Weaker
+     RBS             7..10
+                     /label=RBS
+     misc_feature    1..11
+                     /label=BBa_B0033
+ORIGIN
+        1 tcacacagga c
+//

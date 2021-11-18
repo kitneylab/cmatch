@@ -1,0 +1,26 @@
+LOCUS       BBa_B0015                129 bp    DNA     linear       22-Jul-2021
+DEFINITION  double terminator (B0010-B0012)
+ACCESSION   BBa_B0015
+VERSION     BBa_B0015.1  
+FEATURES             Location/Qualifiers
+     stem_loop       12..55
+                     /label=stem_loop
+     misc_feature    1..80
+                     /label=BBa_B0010
+     terminator      1..80
+                     /label=BBa_B0010
+     stem_loop       96..115
+                     /label=T7 TE
+     misc_feature    122..122
+                     /label=stop
+     polyA_site      116..129
+                     /label=polya
+     misc_feature    89..129
+                     /label=BBa_B0012
+     terminator      89..129
+                     /label=BBa_B0012
+ORIGIN
+        1 ccaggcatca aataaaacga aaggctcagt cgaaagactg ggcctttcgt tttatctgtt
+       61 gtttgtcggt gaacgctctc tactagagtc acactggctc accttcgggt gggcctttct
+      121 gcgtttata
+//

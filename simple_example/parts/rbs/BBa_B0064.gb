@@ -1,0 +1,8 @@
+LOCUS       BBa_B0064                 12 bp    DNA     linear       01-Aug-2021
+DEFINITION  Tuned RBS for Q04401
+ACCESSION   BBa_B0064
+VERSION     BBa_B0064.1  
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 aaagagggga aa
+//
